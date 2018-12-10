@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="pt" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" href="style.css">
+<script src="scripts.js"></script>
+
+<title>Bem-vindos ao Go2Gym!</title>
+
+<style>
+</style>
+
+</head>
+
+<body id="Body" onload="onLoad()" style="font-family:Arial">
+	<div id="Logotipo">
+	<ul id="Bar" style="width: 100%">
+		<img id="Logo" src="Logo.png" align="left" width="75" height="75">
+		<div class="paralelogram" id="FirstParalelogram"><li>
+			<a href="Go2Gym.html" id="quem" style="font-size: 1.5em">Home</a>
+		</li></div>
+		<div class="paralelogram" id="SecondParalelogram"><li>
+			<a href="#Location_url" id="localizacao" style="font-size: 1.5em">Localização</a>
+		</li></div>
+		<div class="paralelogram" id="SecondParalelogram"><li>
+			<a href="Horário.html" id="horario" style="font-size: 1.5em">Horário</a>
+		</li></div>
+		<div class="paralelogram" id="SecondParalelogram"><li>
+			<a href="#Location_url" id="contactos" style="font-size: 1.5em">Contactos</a>
+		</li></div>
+	</ul>
+	</div>
+
+	<div class="slideshow">
+		<a class="prev" onclick="plusImages(-1)">&#10094;</a>
+		<a class="next" onclick="plusImages(1)">&#10095;</a>
+		<div class="myImages">
+			<img id="Image1" src="image-1.jpg">
+		</div>
+		<div class="myImages">
+			<img id="Image2" src="image-2.jpg">
+		</div>
+		<div class="myImages">
+			<img id="Image3" src="image-3.jpg">
+		</div>
+		<div class="myImages">
+			<img id="Image4" src="image-4.jpg">
+		</div>
+		<div class="myImages">
+			<img id="Image5" src="image-5.jpg">
+		</div>
+	</div>
+
+	<a name="Location_url"></a>
+	<div id="Box">
+		 <iframe id="Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.6832523373455!2d-9.297588485161588!3d38.77096837959033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ece16d5a50fcf%3A0xf15427e1e29fa3ae!2sGo2gym!5e0!3m2!1spt-PT!2spt!4v1544372611417" width="600" height="450" frameborder="0" allowfullscreen></iframe>
+		 <p id="Endereço">Endereço:<br></p>
+		 <p id="Morada">Praceta Cap. Américo dos Santos 11-9</p>
+		 <p id="CódigoPostal">Código Postal:<br></p>
+		 <p id="Codigo">2735-521 Agualva-Cacém</p>
+		 <p id="Telefone">Telefone:<br></p>
+		 <p id="Numero"> 965 429 713</p>
+
+		 <a id="Subscrição">Subscreva a nossa newsletter!</a>
+		 <div id="FormStyle">
+		 <form id="Formulário" onsubmit="return checkForm()">
+		 	<a id="Nome">Nome:
+		 	<input type="text" name="Nome"><br>
+		 	</a>
+		 	<a id="E-mail">E-mail:
+		 	<input type="text" name="e-mail"><br>
+		 	</a>
+		 	<input id="Submit" type="submit" value="Submeter">
+		 </form>
+		</div>
+		<a class="Link" href="http://www.facebook.com/go2gymcacem/?ref=br_rs" target="_blank">
+			<img id="Facebook" src="FaceLogo.png">
+		</a>
+
+		<a class="Link" href="http://www.instagram.com/go2gym_cacem/?hl=pt" target="_blank">
+			<img id="Instagram" src="InstaLogo.png">
+		</a>
+	</div>
+
+
+</body>
+
+</html>

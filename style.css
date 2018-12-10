@@ -1,0 +1,278 @@
+body{
+	background-color: #F0F0F0;
+	height: 110vh;
+}
+
+#Logo{
+	margin: 0em 0em 0em 2.5em;
+	margin-top: 0.2em;
+}
+
+#Bar{
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #C6849F;
+	height: 5em;
+	border-radius: 1.2em;
+}
+
+.paralelogram{
+	width: 12.5em;
+	height: 4.65em;
+	border-style: solid;
+	border-color: #C33780;
+	transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}
+
+.paralelogram:hover{
+	background-color: White;
+}
+
+#FirstParalelogram{
+	margin-left: 8.5em;
+}
+
+.paralelogram li{
+	transform: skew(20deg);
+	-ms-transform: skew(20deg);
+	margin-top: 1em;
+}
+
+#quem, #localizacao, #horario, #contactos{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li a{
+	display: inline;
+	color: #ffb6c1;
+	transform: skew(20deg);
+}
+
+.slideshow{
+	max-width: 150em;
+	position: absolute;
+	margin: auto;
+}
+
+.myImages{
+	display: none;
+	margin-left: 20.25em;
+	margin-bottom: 5em;
+	opacity: 1;
+}
+
+.prev{
+	left: 0;
+	cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -2.75em;
+  margin-left: 36.9em;
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next{
+	right: 0;
+	cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -2.75em;
+  margin-left: 36.25em;
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev:hover, .next:hover{
+	background-color: rgba(0,0,0,0.9);
+}
+
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+#Image1, #Image2, #Image3, #Image4, #Image5{
+	width: 35em;
+	height: 25em;
+	margin-left: 21.25em;
+	border-radius: 1.2em;
+	margin-top: 1em;
+}
+
+
+@-webkit-keyframes fade{
+	from{
+		opacity: .4;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@keyframes fade{
+	from{
+		opacity: .4;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+#Box{
+	background-color: #C6849F;
+	max-width: 1000em;
+	width: 83em;
+	height: 25em;
+	margin-top: 28em;
+	list-style-type: none;
+	overflow: hidden;
+	border-radius: 1.2em;
+	position: absolute;
+}
+
+#Location{
+	width: 37.5em;
+	height: 20em;
+	margin-top: 2.5em;
+	margin-left: 1.5em;
+	border-radius: 1.2em;
+}
+
+#Endereço{
+	margin-left: 34.5em;
+	margin-top: -16.75em;
+	font-weight: bold;
+}
+
+#Morada{
+	margin-left: 39.75em;
+	margin-top: -2.1em;
+}
+
+#CódigoPostal{
+	margin-left: 34.5em;
+	font-weight: bold;
+}
+
+#Codigo{
+	margin-left: 41.75em;
+	margin-top: -2.1em;
+}
+
+#Telefone{
+	margin-left: 34.5em;
+	font-weight: bold;
+}
+
+#Numero{
+	margin-left: 39.25em;
+	margin-top: -2em;
+}
+
+#Endereço, #CódigoPostal, #Telefone, #Morada, #Codigo, #Numero{
+	font-size: 1.2em;
+}
+
+#Nome, #E-mail{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#FormStyle{
+	margin-left: 41.4em;
+	margin-top: 1em;
+	border-radius: 1.2em;
+	width: 25em;
+}
+
+#Subscrição{
+	margin-left: 27.55em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#Submit{
+	margin-top: 0.45em;
+	border-radius: 0.5em;
+	border-color: #C33780;
+	background-color: #C6849F;
+	font-size: 1.2em;
+	color: #ffb6c1;
+	cursor: pointer;
+}
+
+#Submit:hover{
+	background-color: #C33780;
+}
+
+#Facebook{
+	width: 3.5em;
+	margin-left: 41.1em;
+	margin-top: 0.8em;
+	display: inline;
+	cursor: pointer;
+}
+
+#Instagram{
+	width: 3.5em;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#TabelaHorário{
+	position: absolute;
+	margin-left: 25vw;
+}
+
+table, th, td{
+	border: 0.25em solid black;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: center;
+}
+
+th{
+	background-color: #C6849F;
+	color: #ffb6c1;
+}
+
+.horas{
+	background-color: #C6849F;
+	color: black;
+	font-weight: bold;
+}
+
+td{
+	background-color: #ffb6c1;
+}
+
+.Fechado{
+	background-color: red;
+}
+
+.Aberto{
+	background-color: green;
+	color: #F0F0F0;
+}
