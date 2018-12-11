@@ -340,6 +340,7 @@ td{
 }
 
 #FacebookHome{
+	position: fixed;
 	width: 3.5em;
 	display: inline;
 	cursor: pointer;
@@ -348,8 +349,10 @@ td{
 }
 
 #InstagramHome{
+	position: fixed;
 	width: 3.5em;
 	display: inline;
 	cursor: pointer;
 	margin-top: 30em;
+	margin-left: 44em;
 }
