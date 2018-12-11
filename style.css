@@ -356,3 +356,16 @@ td{
 	margin-top: 30em;
 	margin-left: 44em;
 }
+
+#TabelaInscrições{
+	position: absolute;
+	margin-left: 2.5em;
+}
+
+.Membership{
+	font-weight: bold;
+}
+
+.Column{
+	text-align: center;
+}
